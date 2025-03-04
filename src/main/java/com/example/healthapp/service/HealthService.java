@@ -1,4 +1,4 @@
-```java
+
 @Service
 public class HealthService {
     @Autowired
@@ -12,4 +12,3 @@ public class HealthService {
         return healthRepository.findAll();
     }
 }
-```

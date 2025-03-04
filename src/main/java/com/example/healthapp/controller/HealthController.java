@@ -1,4 +1,3 @@
-```java
 @RestController
 @RequestMapping("/health")
 public class HealthController {
@@ -15,4 +14,3 @@ public class HealthController {
         return ResponseEntity.ok(healthService.getAllMetrics());
     }
 }
-```

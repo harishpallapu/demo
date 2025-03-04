@@ -1,4 +1,4 @@
-```java
+
 @Repository
 public interface HealthRepository extends JpaRepository<HealthMetric, Long> {
 }
@@ -19,4 +19,3 @@ public class HealthService {
         return healthRepository.findAll();
     }
 }
-```
